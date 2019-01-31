@@ -1,0 +1,12 @@
+{
+  "name": "httpie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "start": "node main.js"
+  },
+  "dependencies": {
+    "httpie": "^0.3.0"
+  }
+}
