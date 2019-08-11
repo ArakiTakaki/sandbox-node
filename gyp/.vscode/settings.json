@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "*.vue": "vue",
+    "*.ts": "typescript",
+    "iostream": "cpp",
+    "cstdint": "cpp"
+  }
+}
