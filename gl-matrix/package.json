@@ -1,0 +1,18 @@
+{
+  "name": "gl-matrix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./src/entry.pug"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.0.0",
+    "parcel": "^1.12.3",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@types/gl-matrix": "^2.4.5",
+    "pug": "^2.0.4"
+  }
+}
