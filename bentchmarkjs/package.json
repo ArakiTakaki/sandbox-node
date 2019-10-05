@@ -1,0 +1,17 @@
+{
+  "name": "bentchmarkjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "start": "ts-node main.ts"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^1.0.31",
+    "@types/microtime": "^2.1.0",
+    "benchmark": "^2.1.4",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
