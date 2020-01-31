@@ -1,0 +1,16 @@
+version: "3.3"
+
+services:
+    # MY_SQL
+    rdb:
+        image: mysql:5.7
+        ports:
+            - "3306:3306"
+        environment:
+            - MYSQL_DATABASE=${DB_NAME}
+            - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+        volumes:
+            - ./rdb/conf/:/etc/mysql/conf.d:cached
+            - ./rdb/data/:/var/lib/mysql:cached
+        env_file: .env
+
