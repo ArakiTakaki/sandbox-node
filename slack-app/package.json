@@ -4,5 +4,9 @@
     "ts-node": "^8.6.2",
     "tsc": "^1.20150623.0",
     "typescript": "^3.7.5"
-  }
+  },
+  "name": "slack-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
 }
